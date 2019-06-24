@@ -9,4 +9,4 @@
 
 [Урок 4](https://anna-mish.github.io/lesson 4 - первый макет/) - Верстка первого макета.   
 [Урок 5] (https://anna-mish.github.io/lesson 5 - знакомство с bootstrap/) - Знакомство с bootstrap.  
-[Урок 6] (https://anna-mish.github.io/lesson 6 - верстка bootstrap/ "bs") - Верстка bootstrap.  
+[Урок 6] (https://anna-mish.github.io/lesson 6 - верстка bootstrap/) - Верстка bootstrap.  
