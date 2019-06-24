@@ -6,5 +6,5 @@
 [Урок 3_1](https://anna-mish.github.io/lesson 3_1 - позиционирование/) - Позиционирование. Блок по центру.  
 [Урок 3_2](https://anna-mish.github.io/lesson 3_2 - позиционированиe/ - позиционирование/) - Позиционирование. Фиксированная шапка.  
 [Урок 4](https://anna-mish.github.io/lesson 4 - первый макет/) - Верстка первого макета.   
-[Урок 5](https://anna-mish.github.io/lesson 5 - знакомство с bootstrap/) - Знакомство с bootstrap.  
-[Урок 6](https://anna-mish.github.io/lesson 6 - верстка bootstrap/) - Верстка bootstrap.  
+[Урок 5] (https://anna-mish.github.io/lesson 5 - знакомство с bootstrap/) - Знакомство с bootstrap.  
+[Урок 6] (https://anna-mish.github.io/lesson 6 - верстка bootstrap/) - Верстка bootstrap.  
