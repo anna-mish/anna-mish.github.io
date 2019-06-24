@@ -1,0 +1,13 @@
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background: #D3D3D3;
+    padding: 50px;
+}
+h1,h2, h5{
+	text-align: center;
+}
+li{
+	list-style-type: none; 
+	text-align: center;
+}
