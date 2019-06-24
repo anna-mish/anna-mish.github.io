@@ -1,0 +1,14 @@
+
+h1 {
+    margin: 100px 0;   
+}
+img{
+   min-height: 140px;
+   margin-bottom: 30px;
+}
+.font-weight-bold {
+    font-weight: 700;
+  }
+div {
+    margin-bottom: 30px;
+}
