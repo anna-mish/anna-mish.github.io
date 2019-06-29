@@ -11,3 +11,5 @@
 
 [Урок 5](https://anna-mish.github.io/lesson%205%20-%20%D0%B7%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D1%81%D1%82%D0%B2%D0%BE%20%D1%81%20bootstrap/) - Знакомство с bootstrap.  
 [Урок 6](https://anna-mish.github.io/lesson%206%20-%20%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0%20bootstrap/) - Верстка bootstrap.  
+[Урок 7](https://anna-mish.github.io/lesson%207%20-%20form.%20pixel%20perfect/) - Форма, perfect pixel.  
+
