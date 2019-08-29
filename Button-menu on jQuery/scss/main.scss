@@ -1,0 +1,97 @@
+header {
+    .menu{
+        background-color: rgba(100,0,100,.7);
+        position: fixed;
+        width: 30vw;
+        height: 100vh;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        transition: all .5s;
+        left: -100vw;
+        &-link {
+            z-index: 10;
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: #fafafa;
+            border-radius: 50%;
+            box-shadow: 1px 1px 20px 10px rgba(100,0,100,0.7);
+            position: fixed;
+            top: 50px;
+            left: 50px;
+            span, span:before, span:after{
+                display: block;
+                height: 2px;
+                width: 18px;
+                position: absolute;
+                left: 50%;
+                margin-left: -9px;
+                top: 50%;
+                margin-top: -1px;
+                background-color: #333; 
+                border-radius: 5px;
+            }
+            span:before {
+                content: '';
+                margin-top: -7px;
+                transition: all .2s;
+            }
+            span:after {
+                content: '';
+                margin-top: 5px;
+                transition: all .2s;
+            }
+            &_active span{
+                background-color: transparent;
+                &:before {
+                    transform: rotate(135deg);
+                    margin-top: 0;
+                }
+                &:after {
+                    transform: rotate(-135deg);
+                    margin-top: 0;
+                }
+            }
+        }
+       &_active{
+           left: 0;
+       }
+       ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: center; 
+            li {
+                width: 100vw; 
+                a{ 
+                    display: block;
+                    width: 100vw;
+                    color: #fff;
+                    line-height: 4;
+                    font-weight: 100;
+                    letter-spacing: 2px;
+                    text-decoration: none;
+                    transition: all .2s;
+                    &:hover{
+                        background-color: rgba(255,255,255,.4);
+                    }
+                }
+            }
+        }
+    }
+}
+
+section {
+    padding: 50px 150px;
+    min-height: 87vh;
+    background-color: #fafafa;
+    border: 2px solid #000;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    h2 {
+        text-align: center;
+    }
+}
