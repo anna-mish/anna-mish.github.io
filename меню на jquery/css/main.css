@@ -1,0 +1,99 @@
+header .menu {
+  background-color: rgba(100, 0, 100, 0.7);
+  position: fixed;
+  width: 30vw;
+  height: 100vh;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 25px;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  left: -100vw; }
+  header .menu-link {
+    z-index: 10;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #fafafa;
+    border-radius: 50%;
+    -webkit-box-shadow: 1px 1px 20px 10px rgba(100, 0, 100, 0.7);
+    box-shadow: 1px 1px 20px 10px rgba(100, 0, 100, 0.7);
+    position: fixed;
+    top: 50px;
+    left: 50px; }
+    header .menu-link span, header .menu-link span:before, header .menu-link span:after {
+      display: block;
+      height: 2px;
+      width: 18px;
+      position: absolute;
+      left: 50%;
+      margin-left: -9px;
+      top: 50%;
+      margin-top: -1px;
+      background-color: #333;
+      border-radius: 5px; }
+    header .menu-link span:before {
+      content: '';
+      margin-top: -7px;
+      -webkit-transition: all .2s;
+      -o-transition: all .2s;
+      transition: all .2s; }
+    header .menu-link span:after {
+      content: '';
+      margin-top: 5px;
+      -webkit-transition: all .2s;
+      -o-transition: all .2s;
+      transition: all .2s; }
+    header .menu-link_active span {
+      background-color: transparent; }
+      header .menu-link_active span:before {
+        -webkit-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+        transform: rotate(135deg);
+        margin-top: 0; }
+      header .menu-link_active span:after {
+        -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+        margin-top: 0; }
+  header .menu_active {
+    left: 0; }
+  header .menu ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; }
+    header .menu ul li {
+      width: 100vw; }
+      header .menu ul li a {
+        display: block;
+        width: 100vw;
+        color: #fff;
+        line-height: 4;
+        font-weight: 100;
+        letter-spacing: 2px;
+        text-decoration: none;
+        -webkit-transition: all .2s;
+        -o-transition: all .2s;
+        transition: all .2s; }
+        header .menu ul li a:hover {
+          background-color: rgba(255, 255, 255, 0.4); }
+
+section {
+  padding: 50px 150px;
+  min-height: 87vh;
+  background-color: #fafafa;
+  border: 2px solid #000;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  line-height: 1.5; }
+  section h2 {
+    text-align: center; }
