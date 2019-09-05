@@ -9,5 +9,10 @@
        link.toggleClass('menu-link_active');
        menu.toggleClass('menu_active');
    });
+
+    // $(document).click(function(){ 
+    //   menu.hide(2000);
+    // });
+ 
  
  }); 
