@@ -9,6 +9,7 @@
   function showNavigation() {
     link.addClass('menu-link_active');
     menu.addClass('menu_active');
+    overlay.show();
     // or
     // menu.fadeIn(800);
   }
@@ -16,6 +17,7 @@
   function hideNavigation() {
     link.removeClass('menu-link_active');
     menu.removeClass('menu_active');
+    overlay.hide();
     // or
     // menu.fadeOut(800);
   }
