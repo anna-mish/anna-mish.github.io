@@ -6,17 +6,48 @@
    var hidden= $('.hidden');
    var overlay = $('#overlay');
   //  var nav_link = $('.menu a')
+  function showNavigation() {
+    link.addClass('menu-link_active');
+    menu.addClass('menu_active');
+    // or
+    // menu.fadeIn(800);
+  }
 
-   link.click(function(){ 
-       link.toggleClass('menu-link_active');
-       menu.toggleClass('menu_active'); 
-   });
+  function hideNavigation() {
+    link.removeClass('menu-link_active');
+    menu.removeClass('menu_active');
+    // or
+    // menu.fadeOut(800);
+  }
 
-   overlay.click(function(){ 
-    menu.fadeOut(800); 
-    link.toggleClass('menu-link_active');  
+  link.click(function(){
+    if (menu.hasClass('menu_active')) {
+      hideNavigation();
+      return;
+    }
+
+    showNavigation();
   });
 
+  overlay.click(function(){
+    hideNavigation();
+  });
+
+
+});
+
+
+
+
+
+  //  link.click(function(){ 
+  //      link.toggleClass('menu-link_active');
+  //      menu.toggleClass('menu_active'); 
+  //  });
+
+  //  overlay.click(function(){ 
+  //   menu.fadeOut(800); 
+  //   link.addClass('menu-link_active');  
+  // });
  
- }); 
  
