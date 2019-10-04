@@ -1,6 +1,6 @@
 # Анна Мищенко
 ## My Works
-[Foosesshoes](https://anna-mish.github.io/Fooseshoes/) - bootstrap 3
+[Foosesshoes](https://anna-mish.github.io/Fooseshoes/) - bootstrap 3  
 [Mueller Aksana](https://anna-mish.github.io/Mueller%20Aksana/) - bootstrap 3, flex
 
 
