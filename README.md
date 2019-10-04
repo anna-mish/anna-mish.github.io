@@ -9,7 +9,7 @@
 
 [Fooseshoes](https://anna-mish.github.io/Fooseshoes/) - bootstrap 3  
 
-
+[Zooportal](https://anna-mish.github.io/Zooportal/) - pure css   
 
 ## Академия Верстки - домашние задания
 [Урок 1](https://anna-mish.github.io/lesson%201%20-%20minibook/ "minibook") - создание minibook  
