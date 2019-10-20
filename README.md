@@ -38,5 +38,8 @@
 [Button-menu on jQuery](https://anna-mish.github.io/Button-menu%20on%20jQuery/) - Выпадающее меню   
 [Adaptive menu on jQuery](https://anna-mish.github.io/Adaptive%20menu%20jQuery/)- Адаптивное меню   
 
+[Верстка e-mail](anna-mish.github.io/email/)   
+
+
 
 
